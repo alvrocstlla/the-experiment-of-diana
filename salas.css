@@ -1,0 +1,38 @@
+h1 {
+    text-shadow: 2px 2px 5px red;
+    text-align: center;
+    font-size: 50px;
+  }
+  p{
+      
+  font-family: Garamond, serif;
+  font-size: 20px;  
+  text-align: center;
+  }
+  h3{
+      text-align: center;
+  font: italic bold 27px georgia serif;
+  }
+  body{
+   
+ background: url(images/marmol.jpg) no-repeat center fixed;
+  background-size: cover;
+  }
+  img {
+    margin-left: 650px;
+    width:200px;height:200px;
+    
+  }
+ p.a{
+    background: url(images/desierto.jpg);
+  height: 70px;
+  }
+  img.b{
+    margin-left: 600px;
+    width:300px;height:200px;
+  }
+  img.c{
+    margin-left: 600px;
+    width:300px;height:200px;
+    position: fixed;
+  }
