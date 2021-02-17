@@ -1,0 +1,21 @@
+body {
+background-image: url(https://image.freepik.com/vector-gratis/fondo-acuarela-verde-pastel-textura-grunge-pintura-arte-digital_72315-51.jpg);
+background-size: cover;
+background-attachment: fixed;  
+}
+
+h1 {
+font-family: Georgia;
+text-align: center;
+color: #02028f;
+border: 2px solid #696969;
+margin-left: 100px;
+margin-right: 100px;
+padding: 6px;
+
+}
+
+p {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+}
