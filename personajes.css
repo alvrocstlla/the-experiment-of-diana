@@ -1,42 +1,91 @@
 img{
     width: 300px;
     height:300px; 
-    float: left;
-    margin-right: 15px;
+    margin-left: 40%;
+    margin-top: 20px;
+    border-radius: 9%;
+    opacity: 0.5;
+    
 }
 
+img:hover {
+    opacity: 1.0;
+  }
+
+
 p{
+    text-align: center;
     margin: 20px;
+    color: rgb(0, 0, 0);
 }
+
+.parrafo{
+margin-bottom: 0px;
+}
+
+.diana{
+    margin-top: 95px;
+}
+
+
 h1{
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    border-top: solid rgb(10, 207, 241);
+    border-bottom: solid rgb(12, 217, 253);
+    border-top-style: dotted;
+    border-bottom-style: dotted;
+    padding: 10px;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(252, 143, 42), 0 0 5px rgb(248, 183, 42);
+    
 }
+.titulo{
+
+    position: relative;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+}
+@keyframes example {
+    0%   {background-color:rgb(255, 0, 0); left:0px; top:0px;}
+    25%  {background-color:rgb(209, 209, 23); left:100px; top:0px;}
+    50%  {background-color:rgb(22, 22, 180); left:100px; top:100px;}
+    75%  {background-color:rgb(3, 223, 3); left:0px; top:100px;}
+    100% {background-color:red; left:0px; top:0px;}
+    0%   {background-color:rgb(196, 43, 43); right:0px; top:0px;}
+    25%  {background-color:rgb(13, 148, 238); right:100px; top:0px;}
+    50%  {background-color:rgb(223, 124, 11); right:100px; top:100px;}
+    75%  {background-color:rgb(41, 255, 41); right:0px; top:100px;}
+    100% {background-color:rgb(255, 16, 223); right:0px; top:0px;}
+  }
 
 h2{
     text-align: center;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(93, 93, 245), 0 0 5px rgb(105, 105, 247);
 }
 body{
-    background-image: url(images/portada_personajes.jpg);
+    background-image: url(images/fondo_personaje.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+   
 }
 
 .antagonista{
-    float: right;
-    margin-right: 10px;
-    margin-left: 100px;
+    margin-left: 40%;
+    
+   
 }
 
 .texto3{
-    margin-top: 50px;
+    
     margin-right: 15px;
-    text-align: right;
+   
 }
 
 .introduccion{
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 50px;
+    
+    margin: 20px;
 }
+
