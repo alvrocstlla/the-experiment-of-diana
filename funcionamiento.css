@@ -8,14 +8,23 @@ h1 {
 font-family: Georgia;
 text-align: center;
 color: #02028f;
-border: 2px solid #696969;
+border: 0.5px solid #696969;
 margin-left: 100px;
 margin-right: 100px;
 padding: 6px;
+box-shadow: 10px 6px;
 
 }
 
 p {
-font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-family: Verdana, Tahoma, sans-serif;
 text-align: center;
+border: 1px dotted black;
+margin-left: 100px;
+margin-right: 100px;
+}
+
+h1:hover{
+    color: #ffffff;
+    background-color: #16b64c;
 }
