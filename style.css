@@ -1,3 +1,11 @@
 * {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    color: royalblue;
+    margin-left: 430px;
+    margin-right: 430px;
+    border-top: 4px double rgb(200, 223, 0);
+    border-bottom: 4px double rgb(200, 223, 0);
 }
