@@ -9,8 +9,8 @@ h1 {
     padding: 10px;
     text-align: center;
     color: #000e91;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 180px;
+    margin-right: 180px;
     box-shadow: 2px 2px 10px #666;
     box-shadow: 5px -5px 0 2px #444;
     box-shadow: 5px 5px 25px #222 inset;
@@ -19,17 +19,39 @@ h1 {
 
 }
 
-p {
+p{
+    margin-right: 180px;
     padding:10px;
-    margin-left: 100px;
-    margin-right: 100px;
-    text-align: center;
     background: white;
+    float: right;  
+
 }
 
+
 .billy {
+    padding: 1px;
     width: 300px;
     border-radius: 6px;
-    margin-left: 470px;
+    margin-left: 180px;
+    margin-top: -3px;
+    border: 2px solid #000000;
     
 }
+
+.texto2 {
+    padding: 10px;
+    background-color: white;
+    float: left;
+    margin-left: 180px;
+    margin-top: -470px;
+    
+}
+
+.centauro {
+    padding: 2px;
+    width: 360px;
+    border-radius: 6px;
+    margin-left: 713px;
+    border: 2px solid black;
+}
+

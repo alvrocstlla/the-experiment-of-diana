@@ -9,3 +9,34 @@ h1 {
     border-top: 4px double rgb(200, 223, 0);
     border-bottom: 4px double rgb(200, 223, 0);
 }
+
+.aspecto {
+    text-align: center;
+}
+
+.diana {
+    padding: 5px;
+    width: 120px;
+    filter: drop-shadow(0 5px 5px #000000b3);
+}
+
+.braulio {
+    padding: 5px;
+    width: 125px;
+    margin-left: 120px;
+    margin-top: -191px;
+    filter: drop-shadow(0 5px 5px #000000b3);
+}
+
+.billy {
+    padding: 5px;
+    width: 130px;
+    margin-left: 245px;
+    margin-top: -239px;
+    filter: drop-shadow(0 5px 5px #000000b3);
+  
+}
+
+.col-sm-8 {
+    padding-left: 80px;
+}
